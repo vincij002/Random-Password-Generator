@@ -18,15 +18,15 @@ numb_of_symbols = int(input("How many symbols would you like?\n"))
 password = ""
 
 
-for char in range(0, numb_of_letters + 1):
+for char in range(1, numb_of_letters + 1):
     password += random.choice(letters)
 
 
-for char in range(0, numb_of_numbers + 1):
+for char in range(1, numb_of_numbers + 1):
     password += random.choice(numbers)
 
 
-for char in range(0, numb_of_symbols + 1):
+for char in range(1, numb_of_symbols + 1):
     password += random.choice(symbols)
 
 print(password)
